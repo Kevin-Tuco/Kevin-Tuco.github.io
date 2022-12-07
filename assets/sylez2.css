@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-button {
+    width: 2px;
+    height: 2px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.HorizontalWrapper {
+    /* position: absolute; */
+    display: block;
+    top: 0;
+    left: 0;
+    width: 45rem;
+    max-height: 200rem;
+    margin: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg) translateY(-50rem);
+    transform-origin: top right;
+}
+
+.HorizontalWrapper>.block {
+    display: block;
+    padding: 5px;
+    transform: rotate(90deg);
+    transform-origin: top right;
+}
+
+.squares {
+    padding: 49rem 0 0 2rem;
+}
+
+.squares>div {
+    width: 48rem;
+    height: 48rem;
+    margin-bottom: 0;
+}
