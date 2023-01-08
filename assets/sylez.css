@@ -167,8 +167,8 @@ li {
 /* Add about 2rem */
 @media (min-width: 2560px) {
     #intro {
-        padding-top: 30rem;
-        padding-bottom: 30rem;
+        padding-top: 50rem;
+        padding-bottom: 50rem;
     }
 
     .block {
