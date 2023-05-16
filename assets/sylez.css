@@ -111,6 +111,7 @@ li {
     transition: all 1s;
 }
 
+/* When it becomes visible, it will transform the element and move it upwards */
 .tag.visible {
     opacity: 1;
     transform: translate(0, 0);
